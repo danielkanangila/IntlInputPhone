@@ -4,7 +4,7 @@
   "authors": [
     "Mrcastro87 <katani.kabandangi@gmail.com>"
   ],
-  "description": "International input type phone with validation",
+  "description": "Intelligent input phone",
   "main": "js/intlInputPhone.js, intlInputPhone.css",
   "license": "MIT",
   "ignore": [
