@@ -1,0 +1,17 @@
+{
+  "name": "intlInputPhone",
+  "homepage": "https://github.com/DaneilKanangila/IntlInputPhone",
+  "authors": [
+    "Mrcastro87 <katani.kabandangi@gmail.com>"
+  ],
+  "description": "International input type phone with validation",
+  "main": "js/intlInputPhone.js, intlInputPhone.css",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
