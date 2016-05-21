@@ -63,11 +63,14 @@ Supported options are:
   ```javascript
   $('.input-phone').intlInputPhone({
     error_message: {
-      INVALID_PH_N: "your custom message here",
-      INVALID_CC: "your custom message here",
-      TOO_SHORT: "your custom message here",
-      TOO_LONG: "your custom message here",
-      UNKNOWN: "your custom message here"
+      INVALID_PH_N: "your custom message here for invalid phone number",
+      INVALID_CC: "your custom message here for invalid country code",
+      TOO_SHORT: "your custom message here for too short phone number",
+      TOO_LONG: "your custom message here for too long phone number",
+      UNKNOWN: "your custom message here for unknow phone number"
     }
   })
   ```
+  
+## Validation  
+
