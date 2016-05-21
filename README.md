@@ -56,7 +56,7 @@ Supported options are:
 *  **display_error** by default the errors are displayed in popover element, you can cutomize the error container like this:
 
   ```javascript
-  $('.input-phone').intlInputPhone({ display_error: $('.custom-error-conyainer') });
+  $('.input-phone').intlInputPhone({ display_error: $('.custom-error-container') });
   ```
 * **error_message** all error messages are displayed in English, you can customize like this:
 
