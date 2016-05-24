@@ -77,7 +77,7 @@ Supported options are:
 Validation is done automatically during the jQuery `.blur()` event and form `.submit()` event. If the input is validated, the plugin add an input hidden named `intlInputPhone`. This input has as value a JSON string which will be recover server side in the following way: 
 
 ```php
-// code ph
+// code php
 
 $inputphone = json_decode($_POST['intlInputPhone']);
 
