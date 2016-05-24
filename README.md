@@ -74,3 +74,42 @@ Supported options are:
   
 ## Validation  
 
+Validation is done automatically during the jQuery `.blur()` event and form `.submit()` event. If the input is validated, the plugin add an input hidden named `intlInputPhone`. This input has as value a JSON string which will be recover server side in the following way: 
+
+```php
+// code ph
+
+$inputphone = json_decode($_POST['intlInputPhone']);
+
+var_dump($inputphone);
+
+```
+Example if the user enter a valide phone number from France (fr):
+
+```
+object(stdClass)[1]
+  public 'isValidNumber' => boolean true
+  public 'isValidNumberForRegion' => boolean true
+  public 'phoneNumberRegion' => string 'FR' (length=2)
+  public 'numberType' => string 'MOBILE' (length=6)
+  public 'format' => 
+    object(stdClass)[2]
+      public 'E164' => string '+33610203010' (length=12)
+      public 'orginal' => string '6 10 20 30 10' (length=13)
+      public 'national' => string '06 10 20 30 10' (length=14)
+      public 'international' => string '+33 6 10 20 30 10' (length=17)
+      public 'out-country-us' => string '011 33 6 10 20 30 10' (length=20)
+      public 'out-country-ch' => string '00 33 6 10 20 30 10' (length=19)
+```
+
+## License
+
+The MIT License
+
+Copyright (c) 2016 daniel kanangila.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
