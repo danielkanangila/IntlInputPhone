@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Intlinputphone by DaneilKanangila</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/intlinputphone/css/intlInputPhone.min.css">
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="#">DanielKanangila</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapsed">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">IntlInputPhone</a></li>
+        <li><a href="demo.html">Demo</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+    <section class="page-header">
+      <h1 class="project-name">Intlinputphone</h1>
+      <h2 class="project-tagline">Intelligent input phone (jQuery plugin)</h2>
+      <a href="https://github.com/DaneilKanangila/IntlInputPhone" class="btn">View on GitHub</a>
+      <a href="https://github.com/DaneilKanangila/IntlInputPhone/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/DaneilKanangila/IntlInputPhone/tarball/master" class="btn">Download .tar.gz</a>
+      <a href="demo.html" class="btn">Demo</a>
+    </section>
+
+	<div class="container">
+		<form class="row" style="margin-top:70px;margin-bottom: 70px;">
+		  <div class="input-phone col-md-6"></div>
+		</form>
+
+		<footer class="site-footer" style="position: relative;bottom: -100px;padding-bottom:30px;>
+	        <span class="site-footer-owner"><a href="https://github.com/DaneilKanangila/IntlInputPhone">Intlinputphone</a> is maintained by <a href="https://github.com/DaneilKanangila">DaneilKanangila</a>.</span>
+			<p>
+	        <span class="site-footer-credits">Copyright (c) 2016 DanielKanangila.</span>
+	        </p>
+      </footer>
+	</div>
+
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/intlinputphone/js/intlInputPhone.min.js"></script>
+  <script type="text/javascript">
+    $('.input-phone').intlInputPhone();
+  </script>
+</body>
+</html>

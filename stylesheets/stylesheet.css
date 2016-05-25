@@ -5,7 +5,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
 
@@ -40,15 +39,13 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem; } }
+    padding: 0.6rem 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .btn {
     display: block;
     width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem; }
+    padding: 0.75rem; }
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
@@ -76,16 +73,13 @@ a {
   margin-bottom: 0.1rem; }
 
 @media screen and (min-width: 64em) {
-  .project-name {
-    font-size: 3.25rem; } }
+  .project-name { } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-name {
-    font-size: 2.25rem; } }
+  .project-name {} }
 
 @media screen and (max-width: 42em) {
-  .project-name {
-    font-size: 1.75rem; } }
+  .project-name { } }
 
 .project-tagline {
   margin-bottom: 2rem;
@@ -93,16 +87,13 @@ a {
   opacity: 0.7; }
 
 @media screen and (min-width: 64em) {
-  .project-tagline {
-    font-size: 1.25rem; } }
+  .project-tagline { } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-tagline {
-    font-size: 1.15rem; } }
+  .project-tagline { } }
 
 @media screen and (max-width: 42em) {
-  .project-tagline {
-    font-size: 1rem; } }
+  .project-tagline { } }
 
 .main-content :first-child {
   margin-top: 0; }
@@ -118,7 +109,6 @@ a {
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 0.9rem;
   color: #383e41;
   background-color: #f3f6fa;
   border-radius: 0.3rem; }
@@ -135,7 +125,6 @@ a {
   .main-content pre > code {
     padding: 0;
     margin: 0;
-    font-size: 0.9rem;
     color: #567482;
     word-break: normal;
     white-space: pre;
@@ -149,9 +138,9 @@ a {
 .main-content .highlight pre, .main-content pre {
   padding: 0.8rem;
   overflow: auto;
-  font-size: 0.9rem;
   line-height: 1.45;
-  border-radius: 0.3rem; }
+  border-radius: 0.3rem;
+  font-size: 12px; }
 .main-content pre code, .main-content pre tt {
   display: inline;
   max-width: initial;
@@ -191,7 +180,6 @@ a {
   .main-content dl dt {
     padding: 0;
     margin-top: 1rem;
-    font-size: 1rem;
     font-weight: bold; }
   .main-content dl dd {
     padding: 0;
@@ -205,20 +193,16 @@ a {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    max-width: 64rem;
     padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem; } }
+    margin: 0 auto; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
-    padding: 2rem 4rem;
-    font-size: 1.1rem; } }
+    padding: 2rem 4rem; } }
 
 @media screen and (max-width: 42em) {
   .main-content {
-    padding: 2rem 1rem;
-    font-size: 1rem; } }
+    padding: 2rem 1rem; } }
 
 .site-footer {
   padding-top: 2rem;
@@ -233,13 +217,15 @@ a {
   color: #819198; }
 
 @media screen and (min-width: 64em) {
-  .site-footer {
-    font-size: 1rem; } }
+  .site-footer { } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .site-footer {
-    font-size: 1rem; } }
+  .site-footer { } }
 
 @media screen and (max-width: 42em) {
-  .site-footer {
-    font-size: 0.9rem; } }
+  .site-footer { } }
+
+.brand {
+  color: #2962ff;
+  margin-right: 10px;
+}
