@@ -1,4 +1,5 @@
-/* danielkanangina/intlInputPhone
+/* https://github.com/DaneilKanangila/IntlInputPhone
+*  Author Daniel Kanangila <daniel.kanangila@gmail.com>
 *  VERSION  0.0.1
 *  LICENSE MIT
 *
