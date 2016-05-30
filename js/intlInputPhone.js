@@ -11,9 +11,9 @@ if (typeof jQuery === 'undefined') {
 
 	var IntlInputPhone = function(element, options) {
 		this.element = element
-		this.preferred_country = typeof options != 'undefined' ? options.preferred_country : ['fr', 'us']
-		this.display_error = typeof options != 'undefined' ? options.display_error : 'on'
-		this.error_message = typeof options != 'undefined' ? options.error_message : IntlInputPhone.DEFAULTS.error_message
+		this.preferred_country = typeof options.preferred_country != 'undefined' ? options.preferred_country : ['fr', 'us']
+		this.display_error = typeof options.display_error != 'undefined' ? options.display_error : 'on'
+		this.error_message = typeof options.error_message != 'undefined' ? options.error_message : IntlInputPhone.DEFAULTS.error_message
 	}
 
 	IntlInputPhone.VERSION = '0.0.1'
