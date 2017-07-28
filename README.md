@@ -28,10 +28,6 @@ $ bower install intlinputphone
 
 You can also download or clone this repository [DanielKanangila/IntlInputPhone](https://github.com/DaneilKanangila/IntlInputPhone.git)
 
-## Online Demo
-
-[http://daneilkanangila.github.io/IntlInputPhone/demo.html](http://daneilkanangila.github.io/IntlInputPhone/demo.html)
-
 ## Example
 
 Here is an example generating an input type phone:
