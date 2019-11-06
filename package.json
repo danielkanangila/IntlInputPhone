@@ -1,0 +1,26 @@
+{
+  "name": "intlinputphone",
+  "version": "1.0.1",
+  "description": "JavaScript plugin. Html Input phone enhanced",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkanangila/IntlInputPhone.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "jQuery",
+    "React",
+    "VueJS",
+    "Angular"
+  ],
+  "author": "Kabandangi K. Kanangila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielkanangila/IntlInputPhone/issues"
+  },
+  "homepage": "https://github.com/danielkanangila/IntlInputPhone#readme"
+}
