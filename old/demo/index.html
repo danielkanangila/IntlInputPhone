@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Demo: IntlInputPhone</title>
-    <link rel="stylesheet" href="../css/intlInputPhone.min.css">
+    <link rel="stylesheet" href="../../css/intlInputPhone.min.css">
     <style>
         form {
             width: 40%;
@@ -12,19 +13,21 @@
         }
     </style>
 </head>
+
 <body>
     <form>
         <div class="input-phone"></div>
     </form>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.js"
-            integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
-            crossorigin="anonymous"></script>
-    <script src="../js/intlInputPhone.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="../js/intlInputPhone.js"></script>
     <script>
         $(document).ready(function() {
-            $('.input-phone').intlInputPhone();
+            $('.input-phone').intlInputPhone({
+                prefered_country: []
+            });
         })
     </script>
 </body>
+
 </html>
