@@ -4,8 +4,8 @@
     "description": "JavaScript plugin. Html Input phone enhanced",
     "private": true,
     "scripts": {
-        "watch": "webpack watch",
-        "start": "webapck-dev-server --open",
+        "watch": "webpack --watch --info-verbosity verbose -d --mode development",
+        "start": "webpack-dev-server --open",
         "build": "webpack"
     },
     "repository": {

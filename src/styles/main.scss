@@ -1,0 +1,100 @@
+@import './flags';
+$btn-color: #efefef;
+._input-wrapper {
+    button,
+    input {
+        background: none;
+        border: none;
+        outline: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    display: flex;
+    position: relative;
+    button._btn {
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        touch-action: manipulation;
+        padding: 6px 12px;
+        font-size: 14px;
+        width: max-content;
+        height: 36px;
+        border: 1px solid #cccccc;
+        background-color: $btn-color;
+        transition: .3s;
+        &:hover {
+            background-color: darken($btn-color, 10%);
+        }
+        span#btn-cc-text {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        span.caret {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: 2px;
+            vertical-align: middle;
+            border-top: 4px dashed;
+            border-top: 4px solid \9;
+            border-right: 4px solid transparent;
+            border-left: 4px solid transparent;
+        }
+        ul.open {
+            display: block;
+        }
+    }
+    ._btn-group ul._phone-list {
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        list-style: none;
+        font-size: 14px;
+        text-align: left;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, .15);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+        max-width: 350px;
+        max-height: 400px;
+        overflow: auto;
+        li a {
+            display: block;
+            padding: 3px 20px;
+            line-height: 1.5;
+            white-space: nowrap;
+            width: 100%;
+            color: #000000;
+            i {
+                margin-right: 10px;
+            }
+            .callingCode {
+                margin-left: 10px;
+            }
+            &:hover {
+                background-color: #F5F5F5;
+            }
+        }
+        &.open {
+            display: block;
+        }
+    }
+    ._phone-field {
+        display: inline-block;
+        height: 34px;
+        width: 100%;
+        padding: 0px 10px;
+        border: 1px solid #cccccc;
+        border-left: 0;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.75);
+        transition-duration: .15s;
+        transition-property: border-color, box-shadow;
+        transition-timing-function: ease-in-out, ease-in-out;
+        transition-delay: 0s 0s;
+    }
+}
